@@ -61,4 +61,4 @@ const CommandDemo = () => {
     )
   }
   
-export default CommandDemo
+export default CommandDemo;
