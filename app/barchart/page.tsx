@@ -17,7 +17,10 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart"
 
-export const description = "An interactive bar chart"
+export const metadata = {
+  title: 'Bar Chart Page',
+  description: 'An interactive bar chart',
+}
 
 const chartData = [
   { date: "2024-04-01", desktop: 222, mobile: 150 },
